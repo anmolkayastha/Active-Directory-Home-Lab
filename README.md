@@ -31,6 +31,8 @@ User logs into a system → Workstation contacts Domain Controller → AD authen
 * Windows 10 (Client Workstation)
 * Configured isolated virtual network
 
+![screenshot of static IP configuration](/screenshots/phase-2-lab-environment-setup/static_IP.png)
+
 ### Phase 3: Active Directory Domain Creation (Completed)
 * Installed Active Directory Domain Services (AD DS)
 * Promoted server to Domain Controller
