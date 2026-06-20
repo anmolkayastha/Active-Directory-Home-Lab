@@ -38,6 +38,8 @@ User logs into a system → Workstation contacts Domain Controller → AD authen
 * Promoted server to Domain Controller
 * Configured DNS integration
 * Created domain: demo.lab
+![screenshot of_AD_server](/screenshots/phase-3-active-directory-domain-creation/AD_server.png)
+_Active Directory Server_
 
 **Skills Practiced:**
 * Forest and domain creation
@@ -48,6 +50,10 @@ User logs into a system → Workstation contacts Domain Controller → AD authen
 * Configured Windows 10 client
 * Joined workstation to domain demo.lab
 * Verified authentication and DNS resolution
+
+![screenshot of_DNS_configuration](/screenshots/phase-4-domain-join/1-client-DNS-configuration.png)
+
+![screenshot of client-joining-domain](/screenshots/phase-4-domain-join/2-client-join-domain.png)
 
 **Outcome:**
 Successfully logged into the client using domain credentials.
@@ -61,10 +67,18 @@ Organizational Units Created:
 * IT (Planned)
 * HR (Planned)
 
+![screenshot of _finance_OU_creation](/screenshots/phase-5-user-and-group-administration/1-create-finance-OU.png)
+
+_Created an Organizational Unit called Finance_ 
+
 Users
 * User Accounts Created:
 * Maria Rodriguez
 * Marcus Johnson
+
+![screenshot of user_creation](/screenshots/phase-5-user-and-group-administration/2-create-user.png)!
+
+_Created a user named Maria Rogriguez under Finance OU_
 
 Security Groups:
 * IT_Admins
@@ -77,6 +91,32 @@ Security Groups:
 * Unlocking accounts
 * Password resets
 * Group membership management
+
+![screenshot of user_account_disabled](/screenshots/phase-5-user-and-group-administration/3-account-disabled.png)
+
+_Disabled account of user Marcus Johnson under Sales OU_
+
+![screenshot of user_account_disabled](/screenshots/phase-5-user-and-group-administration/4-client-account-disabled-verification.png)
+
+_Verified account being disabled_
+
+![screenshot of user_account_enabled](/screenshots/phase-5-user-and-group-administration/5-account-enabled.png)
+
+_Enabled account of Marcus Johnson_
+
+![screenshot of user_account_enabled_verified](/screenshots/phase-5-user-and-group-administration/6-client_account_enabled_verifcation.png)
+
+_Verified Marcus Johnson's account was enabled_
+
+![screenshot of passowrd_change](/screenshots/phase-5-user-and-group-administration/7-server-password-change.png)
+![screenshot of password_change](/screenshots/phase-5-user-and-group-administration/8-server-password-change-2.png)
+_Changed password of Maria Rodriguez's account_
+
+![screenshot of verificaton_user_account_password_change](/screenshots/phase-5-user-and-group-administration/9-client-password-change.png)
+
+_Verified Maria Rodriguez's account password was changed_
+
+
 
 **Skills Demonstrated:**
 * Identity lifecycle management
